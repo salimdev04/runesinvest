@@ -76,31 +76,32 @@ interface CounterCardProps {
 
 }
 
-export const CounterCard = ({ time, label }: CounterCardProps) => {
-    return (
-        <div className=" my-3 mx-6">
-            <h3 className=" text-[70px]">{time}</h3>
-            <p >{label}</p>
-        </div>
-    )
-}
+
 
 
 export const EarlyCard = ({ time, label }: CounterCardProps) => {
     return (
         <div className=" my-3 tablet:mr-6">
-            <h1 className={[orbitron.className, " font-bold text-[48px]"].join(' ')}>{time}</h1>
+            <h1 className={[orbitron.className, "font-bold text-[48px]"].join(' ')}>{time}</h1>
             <p >{label}</p>
         </div>
     )
 }
 
-
-export const CounterBlock = () => {
+export const CounterCard = ({ time, label }: CounterCardProps) => {
     return (
-        <div className={[orbitron.className, "mt-8 text-[24px] px-[4rem] hidden tablet:block"].join(' ')}>
+        <div className=" my-3 tablet:mx-6 mr-6">
+            <h1 className=" text-[70px]">{time}</h1>
+            <p >{label}</p>
+        </div>
+    )
+}
+
+export const CounterBlock = ({ addFlexCent }: { addFlexCent?: string }) => {
+    return (
+        <div className={[orbitron.className, "mt-8 text-[24px] tablet:px-[4rem]"].join(' ')}>
             <h2 className="tablet:ml-6">HALVING BLOCK 840000 IN :</h2>
-            <div className="flex justify-center">
+            <div className={`flex tablet:justify-center ${addFlexCent}`}>
                 <CounterCard time="9" label="Days" />
                 <CounterCard time="1" label="Hours" />
                 <CounterCard time="59" label="Minutes" />

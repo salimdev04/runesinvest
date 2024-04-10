@@ -13,9 +13,9 @@ export default function HeroSection() {
                 <Image src="/runes-hero.png" alt='background image'
                     layout='fill'
                     quality={100}
-                    objectFit='fill'
+                    objectFit='cover'
                     priority
-                    className='-z-10 hidden tablet:block bg-slate-500' />
+                    className='-z-10 bg-slate-500' />
 
                 <div className="tablet:px-[6rem] px-4 pt-[15rem]">
                     <div className=" max-w-[560px] text-white">
@@ -23,7 +23,7 @@ export default function HeroSection() {
                         <p className=" py-[2rem]">Discover the future of Investment on Runes Tokens with our multichain NFT collection. <br />Forge the Key and open the Gates of Runes Protocol</p>
 
                     </div>
-                    <div className=" text-white justify-between mt-[2rem] hidden tablet:flex">
+                    <div className=" text-white justify-between mt-[2rem] tablet:flex">
                         <button className=" bg-black px-6 h-[48px]">Learn More</button>
                         <CounterBlock />
                     </div>

@@ -20,9 +20,8 @@ export default function FaqSection() {
             </div>
             <div >
                 <h1 className={[commonStyles.boldText, 'text-[32px]'].join(" ")}>Still have questions?</h1>
-
                 <button className=" rounded-lg px-6 py-3 border mt-4">Join us on Discord</button>
-                <CounterBlock />
+                <CounterBlock addFlexCent="addFlexCent" />
             </div>
 
         </section>

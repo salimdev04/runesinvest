@@ -28,6 +28,10 @@ body {}
   .addBg {
     background-color: #00000080 !important;
   }
+
+  .addFlexCent {
+    justify-content: center;
+  }
 }
 
 
