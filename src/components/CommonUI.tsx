@@ -98,7 +98,7 @@ export const EarlyCard = ({ time, label }: CounterCardProps) => {
 
 export const CounterBlock = () => {
     return (
-        <div className={[orbitron.className, "mt-8 text-[24px] px-[4rem]"].join(' ')}>
+        <div className={[orbitron.className, "mt-8 text-[24px] px-[4rem] hidden tablet:block"].join(' ')}>
             <h2 className="tablet:ml-6">HALVING BLOCK 840000 IN :</h2>
             <div className="flex justify-center">
                 <CounterCard time="9" label="Days" />
