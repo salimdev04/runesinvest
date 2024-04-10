@@ -42,7 +42,7 @@ export default function Navbar() {
     return (
         <header className={styles.header}>
             <div className="flex items-center">
-                <img src="/runes-logo.svg" width={50} height={50} />
+                <img src="/runes-logo.svg" width={50} height={50} className="mr-[4rem]" />
                 <nav className={commonStyles.hiddenOnMobile}>
                     <Link href={"#"} className={styles.navLink}>About Us</Link>
                     <Link href={"#"} className={styles.navLink}>Dashboard</Link>
