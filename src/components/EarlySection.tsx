@@ -33,7 +33,7 @@ export default function EarlySection() {
             </section>
             <section className={[commonStyles.padding, "block tablet:hidden"].join(' ')} >
                 <h1 className=" text-[36px] font-bold">Discover the Success and Growth of Our NFT Investments</h1>
-                <p className="py-6">Our asset manager's NFT investments have yielded impressive results, showcasing our expertise in the market.</p>
+                <p className="py-6">Our asset managers NFT investments have yielded impressive results, showcasing our expertise in the market.</p>
                 <h1 className=" text-[36px] font-bold">50%</h1>
                 <p>Increase in NFT value over the past year</p>
                 <h1 className=" text-[36px] font-bold pt-6">50%</h1>

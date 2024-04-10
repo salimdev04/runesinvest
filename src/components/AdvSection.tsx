@@ -43,7 +43,7 @@ export default function AdvSection() {
 
                 <div className="px-[4rem] py-[4.5rem]">
                     {advtanges.map((advtange, idx) => (
-                        <AdvtangeMobileCard title={advtange.title} content={advtange.content} />
+                        <AdvtangeMobileCard key={idx} title={advtange.title} content={advtange.content} />
                     ))}
 
                 </div>
