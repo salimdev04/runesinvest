@@ -19,6 +19,16 @@
 body {}
 
 
+@media screen and (max-width: 712px) {
+  h1 {
+    font-family: '__Roboto_da76d2', '__Roboto_Fallback_da76d2' !important;
+  }
+
+  .addBg {
+    background-color: #00000080 !important;
+  }
+}
+
 
 p {
   font-size: 18px;

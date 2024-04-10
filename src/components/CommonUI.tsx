@@ -18,8 +18,8 @@ export const IconCard = ({ title, content, toggle, image }: SimpleCardProps) => 
             <img src={image} className=" mx-auto" alt="" width={64} height={64} />
             <div className="my-6">
                 <h3 className={['text-xl mb-4 font-bold'].join(' ')}>{title}</h3>
-                <p className={['text-base'].join(' ')}>{content}</p>
-                <button className=" bg-black py-3 rounded-[20px] px-6 text-white my-6">Forge BTC key</button>
+                <p className={['text-base h-[85px]'].join(' ')}>{content}</p>
+                <button className=" bg-black py-3 rounded-[20px] px-6 text-white mt-6">Forge BTC key</button>
             </div>
         </div>
     )
