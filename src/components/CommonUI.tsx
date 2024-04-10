@@ -10,16 +10,20 @@ interface SimpleCardProps {
     content: string
     toggle?: boolean
     image?: string
+    label?: string
 }
 
-export const IconCard = ({ title, content, toggle, image }: SimpleCardProps) => {
+export const IconCard = ({ title, content, toggle, image, label }: SimpleCardProps) => {
     return (
-        <div className=" text-center max-w-[400px]">
-            <img src={image} className=" mx-auto" alt="" width={64} height={64} />
+        <div className=" text-center max-w-[400px] mx-auto mb-[4rem]">
+            <div className="h-[64px]">
+
+                <img src={image} className=" mx-auto" alt="" width={64} height={64} />
+            </div>
             <div className="my-6">
                 <h3 className={['text-xl mb-4 font-bold'].join(' ')}>{title}</h3>
-                <p className={['text-base h-[85px]'].join(' ')}>{content}</p>
-                <button className=" bg-black py-3 rounded-[20px] px-6 text-white mt-6">Forge BTC key</button>
+                <p className={['text-base h-[72px]'].join(' ')}>{content}</p>
+                <button className=" bg-black py-3 rounded-[20px] px-6 text-white mt-6">Forge {label} key</button>
             </div>
         </div>
     )
@@ -40,6 +44,7 @@ export const TeamCard = ({ name, content, post, image }: TeamCardProps) => {
     return (
         <div className=" text-center my-4">
             <img src={image} height={80} width={80} className="mx-auto my-6" />
+
             <h3 className={[commonStyles.boldText, ' text-lg tablet:text-[32px] '].join(' ')}>{name}</h3>
             <p>{post}</p>
             <p className={['text-base py-4 pr-4'].join(' ')}>{content}</p>
@@ -83,8 +88,8 @@ export const CounterCard = ({ time, label }: CounterCardProps) => {
 
 export const EarlyCard = ({ time, label }: CounterCardProps) => {
     return (
-        <div className=" my-3 mr-6">
-            <h3 className={[orbitron.className, " font-bold text-[48px]"].join(' ')}>{time}</h3>
+        <div className=" my-3 tablet:mr-6">
+            <h1 className={[orbitron.className, " font-bold text-[48px]"].join(' ')}>{time}</h1>
             <p >{label}</p>
         </div>
     )
@@ -93,8 +98,8 @@ export const EarlyCard = ({ time, label }: CounterCardProps) => {
 
 export const CounterBlock = () => {
     return (
-        <div className={[orbitron.className, "mt-8 text-[24px] px-[2rem] hidden tablet:block"].join(' ')}>
-            <h2 className="ml-6">HALVING BLOCK 840000 IN :</h2>
+        <div className={[orbitron.className, "mt-8 text-[24px] px-[4rem]"].join(' ')}>
+            <h2 className="tablet:ml-6">HALVING BLOCK 840000 IN :</h2>
             <div className="flex justify-center">
                 <CounterCard time="9" label="Days" />
                 <CounterCard time="1" label="Hours" />

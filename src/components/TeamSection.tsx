@@ -54,7 +54,7 @@ export default function TeamSection() {
     return (
         <section className={commonStyles.padding} >
             <div className=" text-center pb-[6rem]">
-                <h1 className={h1Title}>Our Team</h1>
+                <h1 className={[h1Title, 'text-[48px]'].join(' ')}>Our Team</h1>
                 <p className="pt-3">Our OG Task Force of Web3 Natives</p>
             </div>
             <div>

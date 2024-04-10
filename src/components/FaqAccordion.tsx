@@ -13,7 +13,7 @@ import styles from './FaqAccordion.module.css'
 
 export const FaqAccordion = () => {
     return (
-        <Accordion className='max-w-[768px]'>
+        <Accordion className='max-w-[968px]'>
             <AccordionItem >
                 <AccordionItemHeading className={styles.accordionHeading}>
                     <AccordionItemButton className={styles.accordionButton}>

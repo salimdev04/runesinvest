@@ -17,9 +17,9 @@ export default function HeroSection() {
                     priority
                     className='-z-10 hidden tablet:block bg-slate-500' />
 
-                <div className="tablet:px-[4rem] px-4 pt-[15rem]">
+                <div className="tablet:px-[6rem] px-4 pt-[15rem]">
                     <div className=" max-w-[560px] text-white">
-                        <h1 className={h1Title}><span>Runes Invest</span> <br /> <span className="tablet:ml-[4rem]"> Early on <span className=" tablet:underline">Runes</span></span>  <span className=" tablet:underline tablet:block hidden">Protocol</span></h1>
+                        <h1 className={[h1Title, 'text-[56px]'].join(' ')}><span>Runes Invest</span> <br /> <span className="tablet:ml-[4rem]"> Early on <span className=" underline">Runes</span></span>  <span className=" underline">Protocol</span></h1>
                         <p className=" py-[2rem]">Discover the future of Investment on Runes Tokens with our multichain NFT collection. <br />Forge the Key and open the Gates of Runes Protocol</p>
 
                     </div>
