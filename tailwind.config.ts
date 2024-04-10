@@ -8,6 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        orbitron: ['var(--font-orbitron)'],
+        roboto: ['var(--font-roboto)'],
+      },
+      screens: {
+        tablet: "712px",
+
+        laptop: "1024px",
+
+        desktop: "1280px",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
