@@ -16,7 +16,10 @@
   }
 }
 
-body {}
+body {
+  background-color: #000;
+  color: #fff !important;
+}
 
 
 @media screen and (max-width: 712px) {

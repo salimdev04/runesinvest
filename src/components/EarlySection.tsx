@@ -11,9 +11,9 @@ export default function EarlySection() {
                     <h1 className={[h1Title, 'text-[40px]'].join(' ')}> Being Early Matters <br />Open the Runes Gate with <br />your Forged Keys</h1>
                     <p className={[commonStyles.lightText, "py-6 text-lg max-w-[616px]"].join(" ")}>Each Key is backed with Runes Tokens that our team will mint. <br />Our Asset Managers and Devs will select the best tokens to mint early based on Market Sentiment and Alpha calls. <br />Invest 100$ and let us expose you to this new market opportunity.</p>
                     <div className="grid grid-cols-2">
-                        <EarlyCard time="100$" label="Investment" />
-                        <EarlyCard time="25$" label="Investment" />
-                        <EarlyCard time="High" label="ROI" />
+                        <EarlyCard time="300$" label="Mint Price (in $BTC)" />
+                        <EarlyCard time="HIGH" label="Alpha" />
+                        <EarlyCard time="SOON" label="Mint Date" />
                         <EarlyCard time="Low" label="RISK" />
                     </div>
                 </div>

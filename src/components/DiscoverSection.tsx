@@ -12,9 +12,13 @@ export default function DiscoverSection() {
         <section className={commonStyles.padding} >
             <div className={["tablet:flex justify-around pb-8 items-center"].join(' ')}>
                 <div >
-                    <h1 className={[h1Title, 'text-[40px]'].join(' ')}> <span className="">ONE KEY</span> <br /> <span className="tablet:ml-[4rem]">TO RULE THEME </span> <br /> ALL</h1>
-                    <p className={[commonStyles.lightText, "py-6 text-lg max-w-[616px]"].join(" ")}>RuneKeys NFTs are your gateway to early Runes Tokens. <br />Mint your NFT and let our experts in investment expose you early to the ecosystem <br /> Our expertise in asset management, technical development and early blossoming ecosystems along our trading abilities will benefit the Key holders</p>
-                    <button className=" px-6 py-3 bg-black text-white">Learn More</button>
+                    <h1 className={[h1Title, 'text-[40px]'].join(' ')}> THE BIGGEST <br />OPPORTUNITY OF THIS <br />CYCLE IS GOING TO START <br />IN A FEW DAYS...
+                    </h1>
+                    <p className={[commonStyles.lightText, "py-6 text-lg max-w-[616px] leading-normal"].join(" ")}>...and most people will miss it. <br />Why? Because they don’t have access to insider information. <br />Runes Academy will help... <br />
+                        ᛤ Securing a curated community of builders <br />
+                        ᛤ Sharing insider information
+                    </p>
+                    <button className=" py-3 bg-black text-white rounded-[20px] w-[151px]">Join Us</button>
                 </div>
                 <div>
                     <img src="/runes-key.png" alt="" className="tablet:max-w-[616px]  max-h-[600px] mt-6" />

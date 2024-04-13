@@ -10,43 +10,43 @@ import { h1Title } from "@/app/fonts"
 const teamMembers = [
     {
         name: "Dadev",
-        post: "Dev",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        post: "CTO - Co Founder",
+        content: "Fullstack Web3 developer - Runes OG"
     },
     {
-        name: "Dadev",
-        post: "Dev",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        name: "Unhealthy",
+        post: "CEO - Co Founder",
+        content: "Corporate finance - Runes OG"
     },
     {
-        name: "Dadev",
-        post: "Dev",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        name: "Rick",
+        post: "Asset Manager",
+        content: "2017 OG"
     },
     {
-        name: "Dadev",
-        post: "Dev",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        name: "Otto",
+        post: "PM & Product",
+        content: "Cooking products since 2017"
     },
     {
-        name: "Dadev",
-        post: "Dev",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        name: "Kamal",
+        post: "CM",
+        content: "4 years in crypto "
     },
     {
-        name: "Dadev",
-        post: "Dev",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        name: "Anton BT",
+        post: "Collab Manager",
+        content: "4 years in crypto - Spend his time in AMAs"
     },
     {
-        name: "Dadev",
-        post: "Dev",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        name: "Leif",
+        post: "Designer",
+        content: "4 years in crypto"
     },
     {
-        name: "Dadev",
-        post: "Dev",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        name: "billy.99",
+        post: "Collab & advisor",
+        content: "Always networking with the right persons at the right moment"
     },
 ]
 

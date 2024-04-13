@@ -17,7 +17,7 @@ export const FaqAccordion = () => {
             <AccordionItem >
                 <AccordionItemHeading className={styles.accordionHeading}>
                     <AccordionItemButton className={styles.accordionButton}>
-                        <span> What is our solution?</span>
+                        <span> What is Runes?</span>
                         <img src="/Icon.svg" alt="" />
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -30,7 +30,7 @@ export const FaqAccordion = () => {
                 <AccordionItemHeading className={styles.accordionHeading}>
                     <AccordionItemButton className={styles.accordionButton}>
 
-                        <span> How does it work?</span>
+                        <span> Why Runes Protocol matters ?</span>
                         <img src="/Icon.svg" alt="" />
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -43,7 +43,7 @@ export const FaqAccordion = () => {
                 <AccordionItemHeading className={styles.accordionHeading}>
                     <AccordionItemButton className={styles.accordionButton}>
 
-                        <span> What are the benefits?</span>
+                        <span> Why Runes Academy is your Gateway to Runes Ecosystem ?</span>
                         <img src="/Icon.svg" alt="" />
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -56,7 +56,7 @@ export const FaqAccordion = () => {
                 <AccordionItemHeading className={styles.accordionHeading}>
                     <AccordionItemButton className={styles.accordionButton}>
 
-                        <span> Is it customizable?</span>
+                        <span>What is Runes Academy NFT collection ?</span>
                         <img src="/Icon.svg" alt="" />
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -68,7 +68,7 @@ export const FaqAccordion = () => {
             <AccordionItem>
                 <AccordionItemHeading className={[styles.accordionHeading, 'border-b border-black'].join(" ")}>
                     <AccordionItemButton className={styles.accordionButton}>
-                        <span> How can I get started?</span>
+                        <span> How to buy Runes Academy NFT ?</span>
                         <img src="/Icon.svg" alt="" />
                     </AccordionItemButton>
                 </AccordionItemHeading>
