@@ -23,8 +23,8 @@ export default function HeroSection() {
                         <p className=" py-[2rem]">Runes insiders have gathered to create a private Academy where lucky students will learn useful secrets...</p>
 
                     </div>
-                    <div className=" text-white justify-between mt-[2rem] tablet:flex">
-                        <button className=" bg-black px-6 h-[48px] rounded-[20px]">Get Your WL</button>
+                    <div className=" text-black justify-between mt-[2rem] tablet:flex">
+                        <button className=" bg-white px-6 h-[48px] rounded-[20px]">Get Your WL</button>
                         <CounterBlock />
                     </div>
                 </div>

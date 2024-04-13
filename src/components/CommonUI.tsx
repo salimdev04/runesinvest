@@ -23,7 +23,7 @@ export const IconCard = ({ title, content, toggle, image, label }: SimpleCardPro
             <div className="my-6">
                 <h3 className={['text-xl mb-4 font-bold'].join(' ')}>{title}</h3>
                 <p className={['text-base h-[72px]'].join(' ')}>{content}</p>
-                <button className=" bg-black py-3 rounded-[20px] px-6 text-white mt-6">Forge {label} key</button>
+                <button className=" bg-white py-3 rounded-[20px] px-6 text-black mt-6">Forge {label} key</button>
             </div>
         </div>
     )
@@ -90,7 +90,7 @@ export const EarlyCard = ({ time, label }: CounterCardProps) => {
 
 export const CounterCard = ({ time, label }: CounterCardProps) => {
     return (
-        <div className=" my-3 tablet:mx-6 mr-6">
+        <div className=" my-3 tablet:mx-6 mr-6 ">
             <h1 className=" text-[70px]">{time}</h1>
             <p >{label}</p>
         </div>
@@ -99,8 +99,8 @@ export const CounterCard = ({ time, label }: CounterCardProps) => {
 
 export const CounterBlock = ({ addFlexCent }: { addFlexCent?: string }) => {
     return (
-        <div className={[orbitron.className, "mt-8 text-[24px] tablet:px-[4rem]"].join(' ')}>
-            <h2 className="tablet:ml-6">HALVING BLOCK 840000 IN :</h2>
+        <div className={[orbitron.className, "mt-8 text-[24px] tablet:px-[4rem] text-white"].join(' ')}>
+            <h2 className="tablet:ml-6">HALVING IN :</h2>
             <div className={`flex tablet:justify-center ${addFlexCent}`}>
                 <CounterCard time="9" label="Days" />
                 <CounterCard time="1" label="Hours" />
