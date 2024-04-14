@@ -10,51 +10,57 @@ import { h1Title } from "@/app/fonts"
 const teamMembers = [
     {
         name: "Dadev",
+        profile: "dadev.jpeg",
         post: "CTO - Co Founder",
         content: "Fullstack Web3 developer - Runes OG",
         twitter: 'https://twitter.com/dadev42'
     },
     {
         name: "Unhealthy",
+        profile: "unhealth.jpeg",
         post: "CEO - Co Founder",
         content: "Corporate finance - Runes OG",
         twitter: 'https://twitter.com/0x_Unhealthy'
     },
-    {
-        name: "Rick",
-        post: "Asset Manager",
-        content: "2017 OG",
-        twitter: ''
-    },
+    // {
+    //     name: "Rick",
+    //     post: "Asset Manager",
+    //     content: "2017 OG",
+    //     twitter: ''
+    // },
     {
         name: "Otto",
+        profile: "otto.jpeg",
         post: "PM & Product",
         content: "Cooking products since 2017",
         twitter: 'https://twitter.com/0xOttoMotto'
     },
     {
         name: "Kamal",
+        profile: "kamal.jpeg",
         post: "CM",
         content: "4 years in crypto ",
-        twitter: ''
+        twitter: 'https://twitter.com/harlard_runes'
     },
     {
         name: "Anton BT",
+        profile: "anton.jpeg",
         post: "Collab Manager",
         content: "4 years in crypto - Spend his time in AMAs",
         twitter: 'https://twitter.com/antonweb3strat'
     },
-    {
-        name: "Leif",
-        post: "Designer",
-        content: "4 years in crypto",
-        twitter: ''
-    },
+    // {
+    //     name: "Leif",
+    //     post: "Designer",
+    //     content: "4 years in crypto",
+    //     twitter: ''
+    // },
     {
         name: "billy.99",
+        profile: "billy.jpeg",
         post: "Collab & advisor",
         content: "Always networking with the right persons at the right moment",
-        twitter: ''
+        twitter: 'https://twitter.com/tobitoxyz'
     },
 ]
 
@@ -68,7 +74,7 @@ export default function TeamSection() {
             <div>
                 <div className=' grid tablet:grid-cols-4 grid-cols-1 items-center justify-center place-content-center place-items-center gap-8'>
                     {teamMembers.map((member, idx) => (
-                        <TeamCard key={idx} name={member.name} post={member.post} content={member.content} X={member.twitter} image="/member.png" />
+                        <TeamCard key={idx} name={member.name} post={member.post} content={member.content} X={member.twitter} profile={member.profile} />
                     ))}
                 </div>
             </div>

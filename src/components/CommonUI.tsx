@@ -37,16 +37,17 @@ interface TeamCardProps {
     post: string
     content: string
     toggle?: boolean
-    image?: string
+    profile?: string
     LinkedIn?: string
     X: string
     Dribble?: string
 }
-export const TeamCard = ({ name, content, post, image, X }: TeamCardProps) => {
+export const TeamCard = ({ name, content, post, profile, X }: TeamCardProps) => {
     return (
         <div className=" text-center my-4">
-            {/* <img src={image} height={80} width={80} className="mx-auto my-6" /> */}
-            <FaUserCircle size={80} className="mx-auto my-6" />
+            {profile ? <img src={profile} height={80} width={80} className="mx-auto my-6 rounded-full overflow-hidden" /> : <FaUserCircle size={80} className="mx-auto my-6" />}
+
+
 
             <h3 className={[commonStyles.boldText, ' text-lg tablet:text-[32px] '].join(' ')}>{name}</h3>
             <p>{post}</p>
