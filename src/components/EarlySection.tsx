@@ -15,7 +15,7 @@ export default function EarlySection() {
                         <EarlyCard time="HIGH" label="Alpha" />
                         <EarlyCard time="SOON" label="Mint Date" />
                         <div className=" my-3 tablet:mr-6">
-                            <img src="/Icon/btc.svg" height={64} width={64} alt="" />
+                            <img src="/Icon/btc.svg" className="w-[34px] h-[34px] tablet:w-[64px] tablet:h-[64px]" alt="" />
                             <p className="pt-2">Blockchain</p>
                         </div>
                     </div>

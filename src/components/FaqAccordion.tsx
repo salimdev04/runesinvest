@@ -23,7 +23,7 @@ export const FaqAccordion = () => {
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel className={styles.accordionPanel}>
-                    The RUNES Protocol emerges as a groundbreaking solution to Bitcoins limitations, enabling the creation of fungible inscriptions, or tokens, on the Bitcoin blockchain itself.
+                    The RUNES Protocol emerges as a groundbreaking solution to Bitcoin{"'"}s limitations, enabling the creation of fungible inscriptions, or tokens, on the Bitcoin blockchain itself.
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
@@ -48,7 +48,7 @@ export const FaqAccordion = () => {
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel className={styles.accordionPanel}>
-                    You cant navigate this new ecosystem alone. You need a Network and the right alpha calls  to be able to make the highest ROI.
+                    You can{"'"}t navigate this new ecosystem alone. You need a Network and the right alpha calls  to be able to make the highest ROI.
 
                 </AccordionItemPanel>
             </AccordionItem>
