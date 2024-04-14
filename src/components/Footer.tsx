@@ -22,7 +22,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className={styles.policyContainer}>
-                <p>© 2023 Relume. All rights reserved.</p>
+                <p>© 2024 Relume. All rights reserved.</p>
                 <Link className=" underline" href={"#"}>Privacy Policy</Link>
                 <Link className=" underline" href={"#"}>Terms of Service</Link>
                 <Link className=" underline" href={"#"}>Cookies Settings</Link>

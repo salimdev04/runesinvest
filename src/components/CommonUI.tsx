@@ -2,6 +2,7 @@ import { hiddenOnMobile } from "@/utils/styles"
 import commonStyles from "./CommonStyles.module.css"
 import Link from "next/link"
 import { orbitron } from "@/app/fonts"
+import { FaDribbble, FaLinkedin, FaXTwitter } from "react-icons/fa6"
 
 
 
@@ -49,9 +50,9 @@ export const TeamCard = ({ name, content, post, image }: TeamCardProps) => {
             <p>{post}</p>
             <p className={['text-base py-4 pr-4'].join(' ')}>{content}</p>
             <div className="flex gap-[12px] justify-center">
-                <Link href={"#"}> <img src="/Icon/LinkedIn.svg" alt="" /> </Link>
-                <Link href={"#"}> <img src="/Icon/X.svg" alt="" /> </Link>
-                <Link href={"#"}> <img src="/Icon/Youtube.svg" alt="" /> </Link>
+                <Link href={"#"}> <FaXTwitter color="#fff" size={24} /></Link>
+                <Link href={"#"}> <FaLinkedin color="#fff" size={24} /> </Link>
+                <Link href={"#"}> <FaDribbble color="#fff" size={24} /> </Link>
             </div>
         </div>
     )

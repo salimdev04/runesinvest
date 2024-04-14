@@ -14,7 +14,10 @@ export default function EarlySection() {
                         <EarlyCard time="300$" label="Mint Price (in $BTC)" />
                         <EarlyCard time="HIGH" label="Alpha" />
                         <EarlyCard time="SOON" label="Mint Date" />
-                        <EarlyCard time="Low" label="RISK" />
+                        <div className=" my-3 tablet:mr-6">
+                            <img src="/Icon/btc.svg" height={64} width={64} alt="" />
+                            <p className="pt-2">Blockchain</p>
+                        </div>
                     </div>
                 </div>
                 <div className="mt-6">

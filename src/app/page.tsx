@@ -14,7 +14,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <DiscoverSection />
-      <AdvSection />
+      {/* <AdvSection /> */}
       <EarlySection />
       <TeamSection />
       <FaqSection />
