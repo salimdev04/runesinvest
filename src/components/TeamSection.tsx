@@ -11,42 +11,50 @@ const teamMembers = [
     {
         name: "Dadev",
         post: "CTO - Co Founder",
-        content: "Fullstack Web3 developer - Runes OG"
+        content: "Fullstack Web3 developer - Runes OG",
+        twitter: 'https://twitter.com/dadev42'
     },
     {
         name: "Unhealthy",
         post: "CEO - Co Founder",
-        content: "Corporate finance - Runes OG"
+        content: "Corporate finance - Runes OG",
+        twitter: 'https://twitter.com/0x_Unhealthy'
     },
     {
         name: "Rick",
         post: "Asset Manager",
-        content: "2017 OG"
+        content: "2017 OG",
+        twitter: ''
     },
     {
         name: "Otto",
         post: "PM & Product",
-        content: "Cooking products since 2017"
+        content: "Cooking products since 2017",
+        twitter: 'https://twitter.com/0xOttoMotto'
     },
     {
         name: "Kamal",
         post: "CM",
-        content: "4 years in crypto "
+        content: "4 years in crypto ",
+        twitter: ''
     },
     {
         name: "Anton BT",
         post: "Collab Manager",
-        content: "4 years in crypto - Spend his time in AMAs"
+        content: "4 years in crypto - Spend his time in AMAs",
+        twitter: 'https://twitter.com/antonweb3strat'
     },
     {
         name: "Leif",
         post: "Designer",
-        content: "4 years in crypto"
+        content: "4 years in crypto",
+        twitter: ''
     },
     {
         name: "billy.99",
         post: "Collab & advisor",
-        content: "Always networking with the right persons at the right moment"
+        content: "Always networking with the right persons at the right moment",
+        twitter: ''
     },
 ]
 
@@ -60,7 +68,7 @@ export default function TeamSection() {
             <div>
                 <div className=' grid tablet:grid-cols-4 grid-cols-1 items-center justify-center place-content-center place-items-center gap-8'>
                     {teamMembers.map((member, idx) => (
-                        <TeamCard key={idx} name={member.name} post={member.post} content={member.content} image="/member.png" />
+                        <TeamCard key={idx} name={member.name} post={member.post} content={member.content} X={member.twitter} image="/member.png" />
                     ))}
                 </div>
             </div>

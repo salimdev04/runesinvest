@@ -10,6 +10,7 @@ import {
 import 'react-accessible-accordion/dist/fancy-example.css';
 
 import styles from './FaqAccordion.module.css'
+import { SlArrowDown } from 'react-icons/sl';
 
 export const FaqAccordion = () => {
     return (
@@ -18,12 +19,11 @@ export const FaqAccordion = () => {
                 <AccordionItemHeading className={styles.accordionHeading}>
                     <AccordionItemButton className={styles.accordionButton}>
                         <span> What is Runes?</span>
-                        <img src="/Icon.svg" alt="" />
+                        <SlArrowDown size={24} />
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel className={styles.accordionPanel}>
-                    Exercitation in fugiat est ut ad ea cupidatat ut in
-                    cupidatat occaecat
+                    The RUNES Protocol emerges as a groundbreaking solution to Bitcoin's limitations, enabling the creation of fungible inscriptions, or tokens, on the Bitcoin blockchain itself.
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
@@ -31,12 +31,12 @@ export const FaqAccordion = () => {
                     <AccordionItemButton className={styles.accordionButton}>
 
                         <span> Why Runes Protocol matters ?</span>
-                        <img src="/Icon.svg" alt="" />
+                        <SlArrowDown size={24} />
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel className={styles.accordionPanel}>
-                    In ad velit in ex nostrud dolore cupidatat consectetur
-                    ea i
+                    The introduction of fungible tokens on the Bitcoin network opens up a load of applications, from the creation of decentralized finance (DeFi) platforms to Memecoins. This is going to be one of the biggest plays of this bull's cycle.
+
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
@@ -44,12 +44,12 @@ export const FaqAccordion = () => {
                     <AccordionItemButton className={styles.accordionButton}>
 
                         <span> Why Runes Academy is your Gateway to Runes Ecosystem ?</span>
-                        <img src="/Icon.svg" alt="" />
+                        <SlArrowDown size={24} />
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel className={styles.accordionPanel}>
-                    In ad velit in ex nostrud dolore cupidatat consectetur
-                    ea i
+                    You can't navigate this new ecosystem alone. You need a Network and the right alpha calls  to be able to make the highest ROI.
+
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
@@ -57,26 +57,14 @@ export const FaqAccordion = () => {
                     <AccordionItemButton className={styles.accordionButton}>
 
                         <span>What is Runes Academy NFT collection ?</span>
-                        <img src="/Icon.svg" alt="" />
+                        <SlArrowDown size={24} />
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel className={styles.accordionPanel}>
-                    In ad velit in ex nostrud dolore cupidatat consectetur
-                    ea i
+                    The Runes academy NFT Collection is all you need to hold for navigating Runes. The collection is going to be on BTC and costs 300 dollars to mint. Holding the NFT gives you access to our discord privatechannels, where we share alpha and give support
                 </AccordionItemPanel>
             </AccordionItem>
-            <AccordionItem>
-                <AccordionItemHeading className={[styles.accordionHeading, 'border-b border-black'].join(" ")}>
-                    <AccordionItemButton className={styles.accordionButton}>
-                        <span> How to buy Runes Academy NFT ?</span>
-                        <img src="/Icon.svg" alt="" />
-                    </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel className={styles.accordionPanel}>
-                    In ad velit in ex nostrud dolore cupidatat consectetur
-                    ea i
-                </AccordionItemPanel>
-            </AccordionItem>
+
         </Accordion>
     );
 }

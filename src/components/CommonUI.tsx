@@ -2,7 +2,8 @@ import { hiddenOnMobile } from "@/utils/styles"
 import commonStyles from "./CommonStyles.module.css"
 import Link from "next/link"
 import { orbitron } from "@/app/fonts"
-import { FaDribbble, FaLinkedin, FaXTwitter } from "react-icons/fa6"
+import { FaDribbble, FaLinkedin, FaUser, FaXTwitter } from "react-icons/fa6"
+import { FaUserCircle } from "react-icons/fa"
 
 
 
@@ -38,21 +39,22 @@ interface TeamCardProps {
     toggle?: boolean
     image?: string
     LinkedIn?: string
-    X?: string
+    X: string
     Dribble?: string
 }
-export const TeamCard = ({ name, content, post, image }: TeamCardProps) => {
+export const TeamCard = ({ name, content, post, image, X }: TeamCardProps) => {
     return (
         <div className=" text-center my-4">
-            <img src={image} height={80} width={80} className="mx-auto my-6" />
+            {/* <img src={image} height={80} width={80} className="mx-auto my-6" /> */}
+            <FaUserCircle size={80} className="mx-auto my-6" />
 
             <h3 className={[commonStyles.boldText, ' text-lg tablet:text-[32px] '].join(' ')}>{name}</h3>
             <p>{post}</p>
             <p className={['text-base py-4 pr-4'].join(' ')}>{content}</p>
             <div className="flex gap-[12px] justify-center">
-                <Link href={"#"}> <FaXTwitter color="#fff" size={24} /></Link>
-                <Link href={"#"}> <FaLinkedin color="#fff" size={24} /> </Link>
-                <Link href={"#"}> <FaDribbble color="#fff" size={24} /> </Link>
+                <Link href={X}> <FaXTwitter color="#fff" size={24} /></Link>
+                {/* <Link href={"#"}> <FaLinkedin color="#fff" size={24} /> </Link>
+                <Link href={"#"}> <FaDribbble color="#fff" size={24} /> </Link> */}
             </div>
         </div>
     )

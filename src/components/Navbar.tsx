@@ -43,19 +43,19 @@ export default function Navbar() {
         <header className={styles.header}>
             <div className="flex items-center">
                 <img src="/runes-logo.svg" width={50} height={50} className="mr-[4rem]" />
-                <nav className={commonStyles.hiddenOnMobile}>
+                {/* <nav className={commonStyles.hiddenOnMobile}>
                     <Link href={"#"} className={styles.navLink}>About Us</Link>
                     <Link href={"#"} className={styles.navLink}>Dashboard</Link>
                     <Link href={"#"} className={styles.navLink}>Docs</Link>
-                </nav>
+                </nav> */}
             </div>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hidden tablet:block">
+            {/* <a href="#" target="_blank" rel="noopener noreferrer" className="hidden tablet:block">
                 <img src="/Icon/X.svg" alt="" width={20} height={20} />
             </a>
             <div className={["cursor-pointer", commonStyles.hiddenOnDesktop].join(" ")} onClick={() => setToggleMenu(!toggleMenu)}>
                 <img src="/menu.png" width={30} alt="" />
             </div>
-            <MobileNav />
+            <MobileNav /> */}
         </header>
     )
 }

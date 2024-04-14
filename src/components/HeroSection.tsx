@@ -24,8 +24,10 @@ export default function HeroSection() {
 
                     </div>
                     <div className=" text-black justify-between mt-[2rem] tablet:flex">
-                        <button className=" bg-white px-6 h-[48px] rounded-[20px] font-bold">Get Your WL</button>
-                        <CounterBlock />
+                        <a href="https://twitter.com/RunesAcademy" target="_blank" >
+                            <button className=" bg-white px-6 h-[48px] rounded-[20px] font-bold">Get Your WL</button>
+                        </a>
+                        {/* <CounterBlock /> */}
                     </div>
                 </div>
             </section>

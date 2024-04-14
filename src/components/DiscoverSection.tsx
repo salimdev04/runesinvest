@@ -18,7 +18,8 @@ export default function DiscoverSection() {
                         ᛤ Securing a curated community of builders <br />
                         ᛤ Sharing insider information
                     </p>
-                    <button className=" py-3 bg-white text-black rounded-[20px] w-[151px] font-bold">Join Us</button>
+                    <a href="https://twitter.com/RunesAcademy" target="_blank" ><button className=" py-3 bg-white text-black rounded-[20px] w-[151px] font-bold">Join Us</button></a>
+
                 </div>
                 <div>
                     <img src="/runes-key.png" alt="" className="tablet:max-w-[616px]  max-h-[600px] mt-6" />
