@@ -15,6 +15,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Runes Academy</title>
+        <link
+          rel="icon"
+          href="/runes-logo.svg"
+          sizes="32x32"
+        />
+      </head>
       <body className={roboto.className}>{children}</body>
     </html>
   );
