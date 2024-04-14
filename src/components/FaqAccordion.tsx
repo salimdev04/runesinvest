@@ -18,7 +18,7 @@ export const FaqAccordion = () => {
             <AccordionItem >
                 <AccordionItemHeading className={styles.accordionHeading}>
                     <AccordionItemButton className={styles.accordionButton}>
-                        <span> What is Runes?</span>
+                        <span className=' text-left w-full'> What is Runes?</span>
                         <SlArrowDown size={24} />
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -30,7 +30,7 @@ export const FaqAccordion = () => {
                 <AccordionItemHeading className={styles.accordionHeading}>
                     <AccordionItemButton className={styles.accordionButton}>
 
-                        <span> Why Runes Protocol matters ?</span>
+                        <span className=' text-left w-full'> Why Runes Protocol matters ?</span>
                         <SlArrowDown size={24} />
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -43,7 +43,7 @@ export const FaqAccordion = () => {
                 <AccordionItemHeading className={styles.accordionHeading}>
                     <AccordionItemButton className={styles.accordionButton}>
 
-                        <span> Why Runes Academy is your Gateway to Runes Ecosystem ?</span>
+                        <span className=' text-left w-full'> Why Runes Academy is your Gateway to Runes Ecosystem ?</span>
                         <SlArrowDown size={24} />
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -56,7 +56,7 @@ export const FaqAccordion = () => {
                 <AccordionItemHeading className={styles.accordionHeading}>
                     <AccordionItemButton className={styles.accordionButton}>
 
-                        <span>What is Runes Academy NFT collection ?</span>
+                        <span className=' text-left w-full'>What is Runes Academy NFT collection ?</span>
                         <SlArrowDown size={24} />
                     </AccordionItemButton>
                 </AccordionItemHeading>
