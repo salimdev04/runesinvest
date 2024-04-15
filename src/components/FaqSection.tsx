@@ -16,7 +16,7 @@ export default function FaqSection() {
                 <FaqAccordion />
             </div>
             <div >
-                <h1 className={[commonStyles.boldText, 'text-[32px]'].join(" ")}>Some WL are waiting for you on Twitter  </h1>
+                <h1 className={[commonStyles.boldText, 'text-[32px] text-center'].join(" ")}>Some WL are waiting for you on <br /> Twitter  </h1>
                 <a href="https://twitter.com/RunesAcademy" target="_blank">
                     <button className=" rounded-lg px-6 py-3 border mt-4">Twitter</button>
                 </a>
