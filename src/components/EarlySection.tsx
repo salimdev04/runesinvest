@@ -10,7 +10,9 @@ export default function EarlySection() {
             <div className={["tablet:flex flex-row-reverse justify-around pb-8 items-center"].join(' ')}>
 
                 <div >
-                    <h1 className={[h1Title, 'text-[40px]'].join(' ')}> Being Early Matters <br />Open the Runes Gate with <br />your Forged Keys</h1>
+                    <h1 className={[h1Title, 'text-[40px]'].join(' ')}> AN ACADEMY <br />
+                        BUILT BY <br />
+                        RUNES INSIDERS <br /> </h1>
                     <p className={[commonStyles.lightText, "py-6 text-lg max-w-[616px]"].join(" ")}>
                         We have created an Academy for the ones who want to get involved with Runes protocol. <br /> <br />
 

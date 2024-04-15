@@ -5,6 +5,7 @@ import styles from "./Navbar.module.css"
 import commonStyles from "./CommonStyles.module.css"
 import { hiddenOnMobile } from "@/utils/styles"
 import { useState } from "react";
+import { FaXTwitter } from "react-icons/fa6"
 
 
 
@@ -49,13 +50,13 @@ export default function Navbar() {
                     <Link href={"#"} className={styles.navLink}>Docs</Link>
                 </nav> */}
             </div>
-            {/* <a href="#" target="_blank" rel="noopener noreferrer" className="hidden tablet:block">
-                <img src="/Icon/X.svg" alt="" width={20} height={20} />
+            <a href="https://twitter.com/RunesAcademy" target="_blank" rel="noopener noreferrer">
+                <FaXTwitter color="#fff" size={24} />
             </a>
-            <div className={["cursor-pointer", commonStyles.hiddenOnDesktop].join(" ")} onClick={() => setToggleMenu(!toggleMenu)}>
+            {/* <div className={["cursor-pointer", commonStyles.hiddenOnDesktop].join(" ")} onClick={() => setToggleMenu(!toggleMenu)}>
                 <img src="/menu.png" width={30} alt="" />
-            </div>
-            <MobileNav /> */}
+            </div> */}
+            {/* <MobileNav /> */}
         </header>
     )
 }
