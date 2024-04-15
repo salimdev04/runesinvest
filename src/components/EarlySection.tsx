@@ -11,7 +11,21 @@ export default function EarlySection() {
 
                 <div >
                     <h1 className={[h1Title, 'text-[40px]'].join(' ')}> Being Early Matters <br />Open the Runes Gate with <br />your Forged Keys</h1>
-                    <p className={[commonStyles.lightText, "py-6 text-lg max-w-[616px]"].join(" ")}>Each Key is backed with Runes Tokens that our team will mint. <br />Our Asset Managers and Devs will select the best tokens to mint early based on Market Sentiment and Alpha calls. <br />Invest 100$ and let us expose you to this new market opportunity.</p>
+                    <p className={[commonStyles.lightText, "py-6 text-lg max-w-[616px]"].join(" ")}>
+                        We have created an Academy for the ones who want to get involved with Runes protocol. <br /> <br />
+
+                        Our private group will initially benefit from: <br />
+                        <div className="ml-4">
+                            ᛤ Runes tokens early calls <br />
+                            ᛤ Help on important technical topics (ie : UTXO Management) <br />
+                            ᛤ Personal help for OTC Trading <br /> <br />
+                        </div>
+
+                        We aim at creating a community of high skilled individuals. <br /> <br />
+
+                        Imagine a private community where you will be surrounded by people who are building for Runes Protocol…? <br /> <br />
+
+                        Your network is going to be your net worth</p>
                     <div className="grid grid-cols-2">
                         <EarlyCard time="300$" label="Mint Price (in $BTC)" />
                         <EarlyCard time="HIGH" label="Alpha" />
@@ -29,6 +43,6 @@ export default function EarlySection() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
