@@ -44,7 +44,7 @@ interface TeamCardProps {
 }
 export const TeamCard = ({ name, content, post, profile, X }: TeamCardProps) => {
     return (
-        <div className=" text-center my-4">
+        <div className=" text-center my-4 w-[300px]">
             {profile ? <img src={profile} height={80} width={80} className="mx-auto my-6 rounded-full overflow-hidden" /> : <FaUserCircle size={80} className="mx-auto my-6" />}
 
 

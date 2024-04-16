@@ -43,6 +43,9 @@ const teamMembers = [
         content: "4 years in crypto ",
         twitter: 'https://twitter.com/harlard_runes'
     },
+
+]
+const teamMembers_2 = [
     {
         name: "Anton BT",
         profile: "anton.jpeg",
@@ -82,6 +85,11 @@ export default function TeamSection() {
 
             <div className='grid tablet:grid-cols-4 grid-cols-1 place-content-center place-items-center'>
                 {teamMembers.map((member, idx) => (
+                    <TeamCard key={idx} name={member.name} post={member.post} content={member.content} X={member.twitter} profile={member.profile} />
+                ))}
+            </div>
+            <div className='grid tablet:grid-cols-3 grid-cols-1 place-content-center place-items-center mt-6 gap-2'>
+                {teamMembers_2.map((member, idx) => (
                     <TeamCard key={idx} name={member.name} post={member.post} content={member.content} X={member.twitter} profile={member.profile} />
                 ))}
             </div>
