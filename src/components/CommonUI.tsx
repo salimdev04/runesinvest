@@ -53,7 +53,7 @@ export const TeamCard = ({ name, content, post, profile, X }: TeamCardProps) => 
             <p>{post}</p>
             <p className={['text-base py-4 pr-4'].join(' ')}>{content}</p>
             <div className="flex gap-[12px] justify-center">
-                <Link href={X} target="_blank"> <FaXTwitter color="#fff" size={24} /></Link>
+                {X && <Link href={X} target="_blank"> <FaXTwitter color="#fff" size={24} /></Link>}
                 {/* <Link href={"#"}> <FaLinkedin color="#fff" size={24} /> </Link>
                 <Link href={"#"}> <FaDribbble color="#fff" size={24} /> </Link> */}
             </div>

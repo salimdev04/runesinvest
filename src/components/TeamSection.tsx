@@ -63,6 +63,13 @@ const teamMembers = [
         content: "Always networking with the right persons at the right moment",
         twitter: 'https://twitter.com/tobitoxyz'
     },
+    {
+        name: "Drop",
+        profile: "drop.jpeg",
+        post: "Fullstack dev",
+        content: "human debugger",
+        twitter: ''
+    },
 ]
 
 export default function TeamSection() {
@@ -72,13 +79,13 @@ export default function TeamSection() {
                 <h1 className={[h1Title, 'text-[48px]'].join(' ')}>Our Team</h1>
                 <p className="pt-3">Our OG Task Force of Web3 Natives</p>
             </div>
-            <div>
-                <div className=' grid tablet:grid-cols-4 grid-cols-1 items-center justify-center place-content-center place-items-center gap-8'>
-                    {teamMembers.map((member, idx) => (
-                        <TeamCard key={idx} name={member.name} post={member.post} content={member.content} X={member.twitter} profile={member.profile} />
-                    ))}
-                </div>
+
+            <div className='grid tablet:grid-cols-4 grid-cols-1 place-content-center place-items-center'>
+                {teamMembers.map((member, idx) => (
+                    <TeamCard key={idx} name={member.name} post={member.post} content={member.content} X={member.twitter} profile={member.profile} />
+                ))}
             </div>
+
         </section>
     )
 }
