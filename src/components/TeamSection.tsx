@@ -9,19 +9,20 @@ import { h1Title } from "@/app/fonts"
 
 const teamMembers = [
     {
-        name: "Dadev",
-        profile: "dadev.jpeg",
-        post: "CTO - Co Founder",
-        content: "Fullstack Web3 developer - Runes OG",
-        twitter: 'https://twitter.com/dadev42'
-    },
-    {
         name: "Unhealthy",
         profile: "unhealth.jpeg",
         post: "CEO - Co Founder",
         content: "Corporate finance - Runes OG",
         twitter: 'https://twitter.com/0x_Unhealthy'
     },
+    {
+        name: "Dadev",
+        profile: "dadev.jpeg",
+        post: "CTO - Co Founder",
+        content: "Fullstack Web3 developer - Runes OG",
+        twitter: 'https://twitter.com/dadev42'
+    },
+
     // {
     //     name: "Rick",
     //     post: "Asset Manager",
